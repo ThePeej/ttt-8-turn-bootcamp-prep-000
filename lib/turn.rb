@@ -8,6 +8,8 @@
 #   ask for input again until you get a valid input
 # end
 
+require_relative(../bin/turn)
+
 #display_board creates a blank tic tac toe board
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
