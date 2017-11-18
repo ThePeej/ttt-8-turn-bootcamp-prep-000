@@ -47,6 +47,6 @@ end
 
 #turn puts everything all together
 def turn()
-  put "Please enter 1-9:"
+  puts "Please enter 1-9:"
 
 end
