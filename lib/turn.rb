@@ -23,6 +23,7 @@ def input_to_index(input)
   index = input.to_i - 1
 end
 
-# def move(board, position, player = "X")
-#   board[position] = "#{player}"
-# end
+#move allows "X" player in the bottom right and "O" in the top left
+def move(board, position, player = "X")
+  board[position] = "#{player}"
+end
