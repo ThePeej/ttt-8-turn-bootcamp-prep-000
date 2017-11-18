@@ -17,3 +17,12 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
   puts "-----------"
 end
+
+#input_to_index converts a user_input to an integer
+def input_to_index(input)
+  index = input.to_i - 1
+end
+
+def move(board, position, player = "X")
+  board[position] = "#{player}"
+end
