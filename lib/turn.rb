@@ -27,3 +27,12 @@ end
 def move(board, position, player = "X")
   board[position] = "#{player}"
 end
+
+#valid_move? returns true/false based on index
+def valid_move?(board, index)
+  if index.between?(0,8)
+    position_taken?(board,index)
+  else
+    false
+  end
+end
