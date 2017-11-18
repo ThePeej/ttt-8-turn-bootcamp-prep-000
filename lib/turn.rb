@@ -23,6 +23,6 @@ def input_to_index(input)
   index = input.to_i - 1
 end
 
-def move(board, position, player = "X")
-  board[position] = "#{player}"
-end
+# def move(board, position, player = "X")
+#   board[position] = "#{player}"
+# end
